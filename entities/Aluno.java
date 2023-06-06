@@ -74,4 +74,13 @@ public class Aluno {
 		}
 	}
 
+	public void resultadoMediaGeral() {
+		if ((avaliacoes.getProva1() + avaliacoes.getProva2() + avaliacoes.getTrab1() + avaliacoes.getTrab2()) / 4 >= 6.0) {
+			System.out.println("Aprovado por media");
+	} else {
+		System.out.println("Reprovado por media");
+
+	}
+  }
+	
 }
