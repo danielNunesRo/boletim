@@ -69,6 +69,8 @@ public class Aluno {
 	public void resultadoAvaliacao() {
 		if ((avaliacoes.getProva1() + avaliacoes.getProva2())/2 >= 6.0) {
 			System.out.println("Aprovado por nota");
+		} else {
+			System.out.println("Reprovado por nota");
 		}
 	}
 
