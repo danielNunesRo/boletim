@@ -74,6 +74,14 @@ public class Aluno {
 		}
 	}
 
+	public void resultadoTrabalhos() {
+		if((avaliacoes.getTrab1() + avaliacoes.getTrab2()) / 2 >= 6 ) {
+			System.out.println("Aprovado por nota");
+		} else {
+			System.out.println("Reprovado por nota");
+		}
+	}
+
 	public void resultadoMediaGeral() {
 		if ((avaliacoes.getProva1() + avaliacoes.getProva2() + avaliacoes.getTrab1() + avaliacoes.getTrab2()) / 4 >= 6.0) {
 			System.out.println("Aprovado por media");
