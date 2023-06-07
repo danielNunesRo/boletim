@@ -76,9 +76,9 @@ public class Aluno {
 
 	public void resultadoTrabalhos() {
 		if((avaliacoes.getTrab1() + avaliacoes.getTrab2()) / 2 >= 6 ) {
-			System.out.println("Aprovado por nota");
+			System.out.println("Trabalhos aprovados");
 		} else {
-			System.out.println("Reprovado por nota");
+			System.out.println("Trabalhos não aceitos!");
 		}
 	}
 
